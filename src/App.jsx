@@ -1,9 +1,12 @@
 import styled from "styled-components";
-
+import Homepage from "./Pages/Homepage";
+import Header from "./Components/Header";
 const App = () => {
    return ( 
       <Main>
-         <h1>Hello world</h1>
+         {/* <Header/> */}
+         {/* <h1>Hello world</h1> */}
+         <Homepage/>
       </Main>
     );
 }

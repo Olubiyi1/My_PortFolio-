@@ -1,0 +1,39 @@
+/* span{
+     position: relative;
+    }
+
+    span::before{
+        content: "Frontend Developer";
+        color: red;
+        animation: words 20s infinite;
+    } */
+/* 
+    span::after{
+        content: "";
+        position: absolute;
+        width:calc(100% + 50px);
+        height: 100%;
+        background-color: rgb(30,30,30);
+        border-left: 1px solid red;
+        right: -5px;
+        animation: typing .8s infinite , type 20s steps(14) infinite;
+    }
+    @keyframes typing {
+        to{
+            border-left: 1px solid white;
+        }
+    }
+    @keyframes words {
+        0%,70%{
+            /* content: "Frontend Developer"; */
+        }
+    /* } */
+
+    /* @keyframes type {
+        0%,15%,30%,45%,60%,75%,90%,95%{
+            width:0;
+        }
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 18px);
+        }
+    } */ */
