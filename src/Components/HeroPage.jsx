@@ -35,10 +35,10 @@ const HeroPage = () => {
                 </Details>
 
                 <Icons>
-                <p><FaXTwitter/></p>
-                <p><CiFacebook/></p>
-                <p><FaInstagram/></p>
-                <p><CiLinkedin/></p>
+                <p id="one"><FaXTwitter/></p>
+                <p id="one"><CiFacebook/></p>
+                <p id="one"><FaInstagram/></p>
+                <p id="one"><CiLinkedin/></p>
                 </Icons>
             </Left>
 
@@ -69,8 +69,9 @@ const Title = styled.div`
     font-size: 24px;
     font-weight: 500;
     color: rgb(204,204,204);
-    word-spacing: 10px;
+    /* word-spacing: 10px; */
     display: inline-block;
+    font-family: Raleway;
 
 
     span{
@@ -113,6 +114,11 @@ const Icons = styled.div`
     padding:0px 5px;
     font-size: 25px;
     margin-top: 20px;
+
+    #one:hover{
+        color: red;
+
+    }
 
 `
 const Right = styled.image`
