@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import pix from "../assets/Images/pix.png"
 
 
 const HeroPage = () => {
@@ -43,7 +44,7 @@ const HeroPage = () => {
             </Left>
 
             <Right>
-                <img src="src\assets\react.svg" alt="" />
+                <img src={pix} alt="" />
             </Right>
         </Hero>
       );
@@ -55,8 +56,10 @@ const Hero = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 80%;
-    margin: 0px auto;
+    /* border: 1px solid white; */
+    /* margin: 0px auto; */
     font-family: Poppins, sans-serif;
 `
 
@@ -64,6 +67,8 @@ const HeroName = styled.h1`
 font-size: 48px;
 font-weight: 700;
 letter-spacing:5px;
+
+
 `
 const Title = styled.div`
     font-size: 24px;
@@ -73,10 +78,10 @@ const Title = styled.div`
     display: inline-block;
     font-family: Raleway;
 
-
     span{
         color: red;
         font-size: 30px;
+
     }
 
     
@@ -91,15 +96,17 @@ const Details = styled.div`
     a{
         color: rgb(204,204,204);
         text-decoration: none;
+       
     
     };
 
     a:hover{
         color: white;
         cursor: pointer;
-        border-bottom: 2px solid red;
-        padding: 0px;
-    }
+        width: 20px;
+        
+}
+
 `
 const Left = styled.div`
     color: white;
@@ -117,14 +124,17 @@ const Icons = styled.div`
 
     #one:hover{
         color: red;
-
+     
     }
 
 `
 const Right = styled.image`
-    border: 1px solid green;
+    /* border: 1px solid green; */
     img{
-        width: 300px;
+        width: 400px;
+        position: fixed;
+        bottom: 0px;
     }
+  
 `
 
