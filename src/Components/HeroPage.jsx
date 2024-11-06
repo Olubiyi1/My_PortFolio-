@@ -106,6 +106,10 @@ const Content = styled.div`
     @media (max-width:600px){
         flex-wrap: wrap;
         text-align: center;
+        margin-top: 132px;
+    }
+    @media (max-width:250px){
+        margin-top: 100px;
     }
 `
 const Title = styled.div`
@@ -201,11 +205,12 @@ img{
     }
 
     @media (max-width:750px){
-       font-size: 250px;
+       width: 250px;
     }
 
     @media (max-width:350px){
-        font-size: 12px;
+       width:249px;
+       margin-bottom: -5px;
     }
     }
 `
