@@ -201,15 +201,15 @@ const Right = styled.image`
 img{
     width: 350px;
     @media (max-width:880px){
-        width:300px;
+        width:250px;
     }
 
     @media (max-width:750px){
-       width: 250px;
+       width: 200px;
     }
 
     @media (max-width:350px){
-       width:249px;
+       width:200px;
        margin-bottom: -5px;
     }
     }
