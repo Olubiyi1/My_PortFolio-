@@ -18,7 +18,7 @@ const Contact = () => {
                         <input type="text" name="Name" id="Name" />
                     </label> <br />
                     <textarea name="Message" id="" placeholder="What do you have in mind?"></textarea>
-                    <button type="submit">Submit</button>
+                    <button>Submit</button>
                 </form>
             </FormContent>
         </SectionContact>
