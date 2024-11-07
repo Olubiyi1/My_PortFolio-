@@ -66,6 +66,7 @@ const SectionPortfolio = styled.div`
 
         &:hover{
             transform: scale(1.5);
+            
         }
 
         @media (max-width:800px){
@@ -105,7 +106,10 @@ div{
     font-size: 12px;
     flex-wrap: wrap;
 
+
+
     &:hover{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         p{
             visibility: visible;
         }
