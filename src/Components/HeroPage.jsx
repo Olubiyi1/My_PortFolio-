@@ -71,9 +71,6 @@ const Hero = styled.div`
     align-items: center;
     justify-content: space-around; 
     font-family: Poppins, sans-serif; 
-
-  
-    
 `
 const HeroName = styled.h1`
 font-size: 48px;

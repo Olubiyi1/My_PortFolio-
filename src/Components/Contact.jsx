@@ -17,7 +17,7 @@ const Contact = () => {
                     <label htmlFor="">E-mail: <br />
                         <input type="text" name="Name" id="Name" />
                     </label> <br />
-                    <textarea name="Message" id="" placeholder="What do you have in mind"></textarea>
+                    <textarea name="Message" id="" placeholder="What do you have in mind?"></textarea>
                 </form>
             </FormContent>
         </SectionContact>
