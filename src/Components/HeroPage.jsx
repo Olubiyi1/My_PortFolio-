@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import bg from "../assets/Images/black.jpg"
 import { FaXTwitter } from "react-icons/fa6";
-import { CiFacebook } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import pix from "../assets/Images/pix.png"
@@ -42,10 +42,18 @@ const HeroPage = () => {
                                     </Link>
                     </Links>
                     <Icons>
-                    <p id="one"><FaXTwitter/></p>
-                    <p id="one"><CiFacebook/></p>
-                    <p id="one"><FaInstagram/></p>
-                    <p id="one"><CiLinkedin/></p>
+                        <a href="">
+                            <p id="one"><FaXTwitter/></p>
+                        </a>
+                        <a href="https://github.com/Olubiyi1" target="_blank">
+                            <p id="one"><FaGithub/></p>
+                        </a>
+                        <a href="">
+                            <p id="one"><FaInstagram/></p>
+                        </a>
+                        <a href="www.linkedin.com/in/olubiyibabajide" target="_blank">
+                            <p id="one"><CiLinkedin/></p>
+                        </a>
                     </Icons>
                 </Left>
                 <Right>
@@ -172,6 +180,15 @@ const Icons = styled.div`
     font-size: 25px;
     margin-top: 20px;
     color: white;
+
+    a{
+        color: white;
+        text-decoration: none;
+
+        &:hover{
+            color: red;
+        }
+    }
 
     @media (max-width:880px){
         font-size: 20px;
