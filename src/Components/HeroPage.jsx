@@ -106,10 +106,11 @@ const Content = styled.div`
     @media (max-width:600px){
         flex-wrap: wrap;
         text-align: center;
-        margin-top: 132px;
+        margin-top: 100px;
+        
     }
     @media (max-width:250px){
-        margin-top: 100px;
+        margin-top: 10px;
     }
 `
 const Title = styled.div`
@@ -205,12 +206,14 @@ img{
     }
 
     @media (max-width:750px){
-       width: 200px;
+    margin-bottom: -20px;
+       width: 255px;
     }
 
     @media (max-width:350px){
-       width:200px;
-       margin-bottom: -5px;
+       width:255px;
+       margin-bottom: -15px;
+       /* margin-top: -10px; */
     }
     }
 `
@@ -246,8 +249,7 @@ a:hover{
     hr{
         display: block;
         width: 25px;
+        
        }
 }
 `
-
-

@@ -59,6 +59,9 @@ background-color: rgb(27,27,27);
         font-size: 12px;
     }
 
+    a{
+        font-size: 16px;
+    }
 h1{
     font-family: Poppins;
     letter-spacing: 5px;
