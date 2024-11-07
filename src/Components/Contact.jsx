@@ -18,6 +18,7 @@ const Contact = () => {
                         <input type="text" name="Name" id="Name" />
                     </label> <br />
                     <textarea name="Message" id="" placeholder="What do you have in mind?"></textarea>
+                    <button type="submit">Submit</button>
                 </form>
             </FormContent>
         </SectionContact>
@@ -62,6 +63,21 @@ const FormContent = styled.div`
         margin: 0px auto;
         /* margin-top: 100px; */
         text-align: start;
+        
+        button{
+            border: 1px solid white;
+            color: white;
+            width: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 7px;
+            background-color: transparent;
+
+            &:hover{
+                background-color: lightgray;
+                color: black;
+            }
+        }
 
         @media (max-width:550px){
             
