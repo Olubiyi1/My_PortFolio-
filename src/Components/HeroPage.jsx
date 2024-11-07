@@ -107,6 +107,7 @@ const Content = styled.div`
         flex-wrap: wrap;
         text-align: center;
         margin-top: 100px;
+        
     }
     @media (max-width:250px){
         margin-top: 10px;
@@ -248,8 +249,7 @@ a:hover{
     hr{
         display: block;
         width: 25px;
+        
        }
 }
 `
-
-
